@@ -19,15 +19,15 @@ This project implements a modular Human Activity Recognition system that classif
 ---
 
 ## 📂 Project Structure
-HAR-Project/
-│
-├── main.py               # Main pipeline runner
-├── preprocessing.py      # Data cleaning, normalization, PCA
-├── classification.py     # ML classification models
-├── clustering.py         # Clustering algorithms
-├── neural_network.py     # PyTorch deep learning model
-└── requirements.txt      # Dependencies
 
+    HAR-Project/
+    │
+    ├── main.py               # Main pipeline runner
+    ├── preprocessing.py      # Data cleaning, normalization, PCA
+    ├── classification.py     # ML classification models
+    ├── clustering.py         # Clustering algorithms
+    ├── neural_network.py     # PyTorch deep learning model
+    └── requirements.txt      # Dependencies
 ---
 
 ## 📊 Dataset
@@ -87,46 +87,44 @@ The proposed Hybrid Distance-Filtered KMeans filters outliers before clustering,
 ## 🛠️ Installation & Usage
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/khyati2107/HAR-Project.git
-cd HAR-Project
-```
+
+    git clone https://github.com/khyati2107/HAR-Project.git
+    cd HAR-Project
 
 ### 2. Create a virtual environment
-```bash
-python -m venv myenv
-myenv\Scripts\activate
-```
+
+    python -m venv myenv
+    myenv\Scripts\activate
 
 ### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+
+    pip install -r requirements.txt
 
 ### 4. Download the dataset
 Download the UCI HAR Dataset from:
 https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
 
 Extract it so your folder looks like:
-HAR-Project/
-└── UCI HAR Dataset/
-├── train/
-└── test/
-### 5. Run the pipeline
-```bash
-python main.py --data_path "UCI HAR Dataset"
-```
 
+    HAR-Project/
+    └── UCI HAR Dataset/
+        ├── train/
+        └── test/
+
+### 5. Run the pipeline
+
+    python main.py --data_path "UCI HAR Dataset"
 ---
 
 ## 📦 Dependencies
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-torch
-scipy
+
+    numpy
+    pandas
+    scikit-learn
+    matplotlib
+    seaborn
+    torch
+    scipy
 ---
 
 ## 📈 Output Files
